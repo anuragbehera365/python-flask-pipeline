@@ -53,8 +53,8 @@ stages {
             withCredentials([
                 usernamePassword(
                     credentialsId: 'f7935134-aab0-44b5-8307-d12f4cb0e52b',
-                    usernameVariable: 'anuragbehera365',
-                    passwordVariable: '#Anurag365'
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS'
                 )
             ]) {
                 sh '''
