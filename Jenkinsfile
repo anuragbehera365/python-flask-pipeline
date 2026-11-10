@@ -52,9 +52,9 @@ stages {
         steps {
             withCredentials([
                 usernamePassword(
-                    credentialsId: 'dockerhub-cred',
-                    usernameVariable: 'DOCKER_USER',
-                    passwordVariable: 'DOCKER_PASS'
+                    credentialsId: 'f7935134-aab0-44b5-8307-d12f4cb0e52b',
+                    usernameVariable: 'anuragbehera365',
+                    passwordVariable: '#Anurag365'
                 )
             ]) {
                 sh '''
