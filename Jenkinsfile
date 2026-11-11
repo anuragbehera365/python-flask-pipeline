@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "YOUR_DOCKERHUB_USERNAME/python-flask-pipeline"
+    IMAGE = "anuragbehera365/python-flask-pipeline"
     IMAGE_TAG = "${BUILD_NUMBER}"
     NAMESPACE = "flask-app"
     K8S_HOST = "k8s-ec2-ssh"
